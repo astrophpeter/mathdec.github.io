@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML">
+</script>
+
+    <title>Core 1</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+
+        $("#C1AAFF1").click(function(){
+            $("#question").load("Content/Core1/AlgebraAndFunctions/QC1AAFF1.txt",function () {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, "myDiv"]);
+      });$("#answer").load("Content/Core1/AlgebraAndFunctions/AC1AAFF1.txt",function () {
+  MathJax.Hub.Queue(["Typeset", MathJax.Hub, "myDiv"]);
+});
+
+        });
+    });
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="../navbar/">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+    <h5> <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Core 1 Mathematics </h5>
+
+      <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="Practice" role="tab" data-toggle="tab">Home</a></li>
+      <li role="presentation"><a href="#profile" aria-controls="Assignments" role="tab" data-toggle="tab">Profile</a></li>
+      <li role="presentation"><a href="#messages" aria-controls="Quiz" role="tab" data-toggle="tab">Messages</a></li>
+      <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+    </ul>
+    </div>
+ <div class="container">
+  <div class="col-xs-12" style="height:50px;"></div>
+  <div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="home">
+      <div class="row">
+        <div class="col-md-3">
+
+          <div class="list-group">
+            <a class="list-group-item active" role="button" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapse1">Linear Graphs</a>
+            <div class="collapse" id="collapse1">
+              <a class="list-group-item" role="button" id="C1AAFF1">Factorisation 1</a>
+              <a href="#" class="list-group-item">Morbi leo risus</a>
+              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
+          </div>
+
+          <div class="list-group">
+            <a class="list-group-item active" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Trigonometry</a>
+            <div class="collapse" id="collapseExample">
+              <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+              <a href="#" class="list-group-item">Morbi leo risus</a>
+              <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+              <a href="#" class="list-group-item">Vestibulum at eros</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-9">
+          <div class="panel panel-default">
+             <div class="panel-heading">Question</div>
+            <div class="panel-body">
+              <div id="question">  </div>
+              <button type="button" class="btn btn-success btn-sm" data-toggle="collapse" data-target="#demo">Reveal Answer</button>
+              <div id="demo" class="collapse">
+
+              <div class="well">
+              <div id="answer">  </div>
+              </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div role="tabpanel" class="tab-pane" id="Assignments"></div>
+      <div role="tabpanel" class="tab-pane" id="Quiz"></div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>

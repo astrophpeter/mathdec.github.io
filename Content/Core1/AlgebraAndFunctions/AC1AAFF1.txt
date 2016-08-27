@@ -1,0 +1,2 @@
+We require two numbers that times together to make 2, and add together to make 3. The only numbers that do this are 1 and 2, hence,
+$$(x+2)(x+1)=$$.
